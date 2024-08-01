@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("yolov8n-pose.pt")
+model = YOLO("yolov8l-pose.pt")
 
 
 # Use the model
