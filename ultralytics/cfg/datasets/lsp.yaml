@@ -1,5 +1,7 @@
 path: ../datasets/lsp
 train: images/train
 val: images/val
+kpt_shape: [14, 3] 
+
 names:
   0: person
