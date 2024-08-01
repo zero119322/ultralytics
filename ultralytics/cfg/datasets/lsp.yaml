@@ -2,7 +2,6 @@ path: ../datasets/lsp
 train: images/train
 val: images/val
 kpt_shape: [14, 3] 
-kpt_shape: [14, 3]
 keypoints:
   - "right_ankle"
   - "right_knee"
