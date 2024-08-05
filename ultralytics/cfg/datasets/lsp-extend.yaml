@@ -19,4 +19,4 @@ keypoints:
   - "head_top"
 names:
   0: person
-flip_idx = [5, 4, 3, 2, 1, 0, 11, 10, 9, 8, 7, 6, 12, 13]
+flip_idx: [5, 4, 3, 2, 1, 0, 11, 10, 9, 8, 7, 6, 12, 13]
