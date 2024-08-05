@@ -1,2 +1,22 @@
-
+path: ../datasets/lsp-extend
+train: images/train
+val: images/val
+kpt_shape: [14, 3] 
+keypoints:
+  - "right_ankle"
+  - "right_knee"
+  - "right_hip"
+  - "left_hip"
+  - "left_knee"
+  - "left_ankle"
+  - "right_wrist"
+  - "right_elbow"
+  - "right_shoulder"
+  - "left_shoulder"
+  - "left_elbow"
+  - "left_wrist"
+  - "neck"
+  - "head_top"
+names:
+  0: person
 flip_idx = [5, 4, 3, 2, 1, 0, 11, 10, 9, 8, 7, 6, 12, 13]
