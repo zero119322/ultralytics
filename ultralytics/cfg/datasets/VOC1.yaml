@@ -1,4 +1,4 @@
-path: 
+path: ../datasets/VOC
 train: ./VOC/images/train # train images
 val: VOC/images/val # val images
 test: VOC/images/test # test images (optional)
