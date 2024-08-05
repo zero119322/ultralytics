@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 if __name__ == '__main__':
     # 加载模型
-    model = YOLO("ultralytics/models/v8/yolov8n.yaml")  # 从头开始构建新模型
+    model = YOLO("ultralytics/cfg/models/v8/yolov8n.yaml")  # 从头开始构建新模型
     print(model.model)
 
     # Use the model
