@@ -1,9 +1,8 @@
 from ultralytics import YOLO
+if __name__ == '__main__':
+    # 加载模型
+    model = YOLO("ultralytics/models/v8/yolov8n.yaml")  # 从头开始构建新模型
+    print(model.model)
 
-# Load a model
-model = YOLO("yolov8n-pose.pt")
-
-
-# Use the model
-model.train(data="lsp-extend.yaml", epochs=50,device='0',pretrained=True,seed=42)  # train the model
-
+    # Use the model
+    results = model.train(data="VOC1.yaml", epochs=100, device='0', batch=16,workers=0)  # 训练模型
