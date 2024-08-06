@@ -6,4 +6,4 @@ if __name__ == '__main__':
     model = YOLO(model="ultralytics/cfg/models/v8/yolov8l.yaml")  # 从头开始构建新模型
 
     # Use the model
-    results = model.train(data="VOC.yaml", epochs=300, device='0', batch=8, seed=42,patience=10)  # 训练模
+    results = model.train(data="VOC1.yaml", epochs=300, device='0', batch=8, seed=42,patience=10)  # 训练模
